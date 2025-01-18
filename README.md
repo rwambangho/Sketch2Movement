@@ -61,5 +61,6 @@ Step3. **캐릭터에 동적인 모션 부여**
 <img src=https://github.com/navi0728/Sketch2Movement/blob/main/src/Step2_output.png width="200" height="200"/>
 
 ### Step 3: Background2Movement  
-![Step 3 Result](#)     
+<img src=https://github.com/navi0728/Sketch2Movement/blob/main/src/Step3_output.gif width="200" height="200"/>
+
 
