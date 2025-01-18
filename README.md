@@ -23,17 +23,17 @@
 ### **Step 1: Sketch2Image**  
 - **Input**: 스케치 이미지  
 - **Output**: 채색된 이미지  
-- **사용 모델**: [ControlNet](https://github.com/lllyasviel/ControlNet-v1-1-nightly)  
+- **사용 모델 inference**: [ControlNet](https://github.com/lllyasviel/ControlNet-v1-1-nightly)  
 
 ### **Step 2: Image2Background**  
 - **Input**: 채색된 이미지  
 - **Output**: 가상 배경이 생성된 이미지  
-- **사용 모델**: [Photo Background Generation](https://github.com/yahoo/photo-background-generation?tab=readme-ov-file)  
+- **사용 모델 inference**: [Photo Background Generation](https://github.com/yahoo/photo-background-generation?tab=readme-ov-file)  
 
 ### **Step 3: Background2Movement**  
 - **Input**: 가상 배경이 생성된 이미지  
 - **Output**: 2초 애니메이션 (GIF)  
-- **사용 모델**: [Animate Anything](https://github.com/alibaba/animate-anything)  
+- **사용 모델 inference**: [Animate Anything](https://github.com/alibaba/animate-anything)  
 
 ---
 
@@ -43,10 +43,8 @@
 ---
 
 ## 사용 기술 및 경량화  
-- **Stable Diffusion**  
-- **ControlNet**  
-- 각 단계별 모델은 경량화 작업을 통해 최적화.  
-
+- **Stable Diffusion with ControlNet**  
+- condition: Canny Edge Detection, Salient Object Detected Instance
 ---
 
 ## 결과 이미지  
@@ -57,18 +55,5 @@
 ![Step 2 Result](#)  
 
 ### Step 3: Background2Movement  
-![Step 3 Result](#)  
-
----
-
-## 데모  
-- 구현: **Streamlit**  
-- 프로젝트 실행 시 데모를 통해 결과 확인 가능.  
-
----
-
-## 환경 정보  
-- **Python Version**: `Python 3.x`  
-- **Torch Version**: `Torch X.X`  
-- **CUDA Version**: `CUDA X.X`  
+![Step 3 Result](#)     
 
