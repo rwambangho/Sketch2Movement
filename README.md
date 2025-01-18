@@ -14,6 +14,37 @@ Step3. **캐릭터에 동적인 모션 부여**
 [프로젝트 발표자료](https://drive.google.com/file/d/1AlGLFn5aqtn0KXdo1vzc8_NqJGljM6wa/view?usp=sharing)
 
 ---
+**2024.11.21 - 2024.12.27**
+
+<table>
+  <tbody>
+    <tr>
+      <td align="center">
+        <a href="https://github.com/navi0728">
+          <img src="https://github.com/Pnavi0728.png" width="100px;" alt=""/>
+          <br /><sub><b>MinJu Lee</b></sub>
+        </a>
+        <br />
+      </td>
+      <td align="center">
+        <a href="https://github.com/winnercalvin">
+          <img src="https://github.com/winnercalvin.png" width="100px;" alt=""/>
+          <br /><sub><b>SeungHo Park</b></sub>
+        </a>
+        <br />
+      </td>
+      <td align="center">
+        <a href="https://github.com/rwambangho">
+          <img src="https://github.com/rwambangho.png" width="100px;" alt=""/>
+          <br /><sub><b>ByeongHo Yoon</b></sub>
+        </a>
+        <br />
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+---
 
 ## 배경  
 이 프로젝트는 여수 **아르떼 뮤지엄**에서의 경험에서 영감을 받았습니다.  
