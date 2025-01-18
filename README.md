@@ -21,7 +21,7 @@ Step3. **캐릭터에 동적인 모션 부여**
     <tr>
       <td align="center">
         <a href="https://github.com/navi0728">
-          <img src="https://github.com/Pnavi0728.png" width="100px;" alt=""/>
+          <img src="https://github.com/navi0728.png" width="100px;" alt=""/>
           <br /><sub><b>MinJu Lee</b></sub>
         </a>
         <br />
