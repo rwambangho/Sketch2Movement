@@ -53,7 +53,7 @@
 
 ## 결과 이미지  
 ### Step 1: Sketch2Image  
-![Step 1 Result](https://github.com/user-attachments/assets/520ba523-67d0-4d71-af90-52823bc56a5a) 
+<img src="https://github.com/navi0728/Sketch2Movement/blob/main/src/Sketch_Image.png"/>
 
 ### Step 2: Image2Background  
 ![Step 2 Result](#)  
