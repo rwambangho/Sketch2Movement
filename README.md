@@ -9,7 +9,7 @@
 
 아이들은 자신만의 그림이 살아 움직이는 모습을 보며 상상력과 창의력을 마음껏 발휘할 수 있습니다.  
 
-[발표자료][https://drive.google.com/file/d/1AlGLFn5aqtn0KXdo1vzc8_NqJGljM6wa/view?usp=sharing] 
+[발표자료](https://drive.google.com/file/d/1AlGLFn5aqtn0KXdo1vzc8_NqJGljM6wa/view?usp=sharing)
 
 ---
 
