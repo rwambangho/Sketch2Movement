@@ -122,5 +122,5 @@ Step3. **캐릭터에 동적인 모션 부여**
 또한 배경 생성 단계에서는 condition_scale파라미터를 1.0으로 조정했을 경우 마스킹된 객체의 형태와 색을 그대로 유지할 수 있었고 마스킹된 객체와 배경 설명을 디테일하게 한 프롬프트를 입력했을 때 가장 깔끔하게 나오는 것을 
 확인할 수 있었습니다.
 
-<img width="918" height="362" alt="image" src="https://github.com/user-attachments/assets/7bb43dea-be13-4c47-8d07-d25f269731ce" />
+<img width="918" height="361" alt="image" src="https://github.com/user-attachments/assets/7bb43dea-be13-4c47-8d07-d25f269731ce" />
 
