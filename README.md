@@ -97,4 +97,22 @@ Step3. **캐릭터에 동적인 모션 부여**
 ### Step 3: Background2Movement  
 <img src=https://github.com/navi0728/Sketch2Movement/blob/main/src/Step3_output.gif width="200" height="200"/>
 
+## 프로젝트 회고
+본 프로젝트 과정에서는 세가지 문제점을 가지고 있었습니다. 
+
+첫번째 문제점은 스케치 이미지를 3D이미지로 생성하는 단계에서 스케치 이미지의 정보를 크게 반영하지 못하는 것이었습니다.
+이를 해결하기 위해 Stable diffusion의 입력조건을 넣는 부분에서 Lineart Anime모델을 사용하여 입력된 이미지의 선화(lineart)를 추출함으로써 이미지의 구조와 형태를 파악할 수 있어 해당 구조를 유지하면서도
+의도하고자 한 애니메이션 스타일의 색상과 디테일적인 부분을 추가해주었기에 최종적으로 원하는 결과를 만들 수 있었습니다.
+<img width="575" height="303" alt="image" src="https://github.com/user-attachments/assets/f1dd72a6-01a7-45b2-b605-6f40393a8bea" />
+
+
+두번째 문제점은 배경을 생성하는 단계로 넘어갈때 3D로 생성하는 단계에서 선화에 맞게 채색이 안된 경우 잘못 채색된 이미지를 기준으로 마스크를 생성하여 그것이 배경 생성에 반영된다는 문제점이 있었습니다. 
+이를 해결하기 위해 스케치 이미지를 기준으로 마스크를 생성하였지만 스케치의 선이 떨어져 있는 경우는 적용이 불가해 OpenCV의 Dilation과 Erosion을 이용하여 선의 굵기를 조절하는 후처리 작업을 통해 해당 문제를 해결할 수 있었습니다.
+<img width="415" height="241" alt="image" src="https://github.com/user-attachments/assets/19528a03-2aff-4774-9dc1-d2521d2f6328" />
+
+세번째 문제점은 한정적인 자원으로 인한 한계입니다. 직접 그려서 테스트했을시에도 우수한 성능을 보였기에 수집하고 정제한 데이터셋으로 전이학습 및 파인튜닝을 진행하려 했으나 OOM발생으로 인해 프롬프트 엔지니어링을 통해 성능을 개선하기로 결정했습니다. 
+프롬프트의 의존성이 높아 입력 이미지의 정보를 최대한 반영시키기 위해 하이퍼파라미터 값을 조정하였고 Controlnet의 논문을 분석하여 여러가지 프롬프트를 실험한 결과 명사를 나열하거나 동작을 추가해주었을 때 좋은 결과가 나오는 것을 확인할 수 있었습니다.
+<img width="301" height="318" alt="image" src="https://github.com/user-attachments/assets/268154de-e818-4656-ae5a-582699b896c1" />
+또한 배경 생성 단계에서는 condition_scale파라미터를 1.0으로 조정했을 경우 마스킹된 객체의 형태와 색을 그대로 유지할 수 있었고 마스킹된 객체와 배경 설명을 디테일하게 한 프롬프트를 입력했을 때 가장 깔끔하게 나오는 것을 확인할 수 있었습니다.
+<img width="1118" height="362" alt="image" src="https://github.com/user-attachments/assets/7bb43dea-be13-4c47-8d07-d25f269731ce" />
 
